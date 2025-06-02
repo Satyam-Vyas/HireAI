@@ -12,7 +12,7 @@ import { Upload, ArrowLeft, FileText, User, Loader2 } from "lucide-react"
 
 const uploadResume = async (formData: FormData) => {
   try {
-    const response = await fetch("https://a96c-2405-201-5c0d-19cb-6017-9627-c753-d3e0.ngrok-free.app//extract_resume", {
+    const response = await fetch("https://a27b-2405-201-5c0d-19cb-6017-9627-c753-d3e0.ngrok-free.app/extract_resume", {
       method: "POST",
       body: formData,
     })
